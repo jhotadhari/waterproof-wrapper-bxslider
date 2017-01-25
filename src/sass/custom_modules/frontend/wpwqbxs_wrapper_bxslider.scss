@@ -4,7 +4,7 @@
 */
 
 .wpwq-query-wrapper.bxslider {
-  
+  clear: both;
   .bx-viewport {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 
@@ -22,10 +22,18 @@
       li {
         padding: 0 40px 0 50px;
         
+        img.wp-post-image,
+        img.attachment-thumbnail {
+          float: left;          
+          margin: 1rem 1rem 1rem 0rem;         
+        }
+        
         .inner {
           padding-bottom: 10px;
-          .bxslider-post-link {
-          }
+          .bxslider-post-link {
+
+          }
+
         }
       }
     }

@@ -6,14 +6,19 @@
 
 class Wpwq_wrapper_bxslider_single extends Wpwq_wrapper_single {
 	
-	function __construct( $name = null, $query_single_obj = null , $args = null, $args_single = null ) {
-		parent::__construct( $name, $query_single_obj , $args, $args_single );
+	function __construct( $name = null, $query_single_obj = null , $args = null, $args_single = null, $single_count = null ) {
+		parent::__construct( $name, $query_single_obj , $args, $args_single, $single_count);
 		$this->set_inner( $query_single_obj );
 	}
 		
 	protected function set_inner( $query_single_obj ) {
 
-		$is_linked = ( array_key_exists('has_link', $this->args ) && $this->args['has_link'] == 'true' && strlen($query_single_obj['str_link']) > 0 ? true : false );
+		$is_linked = ( array_key_exists('has_link', $this->args ) 
+			&& $this->args['has_link'] == 'true' 
+			&& strlen($query_single_obj['str_link']) > 0 
+			&& strlen($query_single_obj['link']) > 0 
+			? true 
+			: false );
 		
 		$return = '';
 		
