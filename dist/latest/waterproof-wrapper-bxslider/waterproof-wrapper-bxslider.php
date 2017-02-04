@@ -3,7 +3,7 @@
 Plugin Name: Waterproof Wrapper BxSlider
 Plugin URI: http://waterproof-webdesign.info/plugins/waterproof-wrapper-bxslider
 Description: Wrapper to extend the 'Waterproof Wrap Query' Plugin. Based on bxslider (http://bxslider.com/).
-Version: 0.0.1
+Version: 0.0.2
 Author: jhotadhari
 Author URI: http://waterproof-webdesign.info/
 License: GNU General Public License v2

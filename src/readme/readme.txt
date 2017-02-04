@@ -14,7 +14,7 @@ Wrapper to extend the 'Waterproof Wrap Query' Plugin. It's based on [bxSlider](h
 Thanks to CMB2 for their easy metaboxes and optionpages!
 
 == Installation ==
-## Requirements:
+Requirements:
 * php 5.6
 * Waterproof Wrap Query Plugin
 
